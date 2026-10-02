@@ -1,0 +1,41 @@
+source_layer,source_category,source_concept,target_layer,target_category,target_concept,relationship_type,relationship_strength,directional,rule_status,rule_source,used_in_demo,notes
+content,Communication Style,Emotional,audience,Emotional Response,Comfort,elicits,0.7,True,approved,5b1_human_review_v0.1,False,Emotional communication 可能帶來 comfort，但不是所有 emotional content 都會產生 comfort。
+content,Communication Style,Emotional,audience,Emotional Response,Touching,elicits,0.8,True,approved,5b1_human_review_v0.1,False,Emotional communication 很合理引發 audience 的 touching response。這是很典型的跨 ontology alignment。
+content,Creative Style,Comedic Parody Format,audience,Creator Perception,Funny,elicits,0.8,True,approved,5b1_human_review_v0.1,False,comedic/parody content format 很合理讓 audience perceive creator/content as funny。
+content,Creative Style,Vocal Production Craftsmanship,audience,Creator Perception,Vocal Ability,contributes_to,0.85,True,approved,ontology_v0.2_human_governance,True,Content-level vocal production craftsmanship can contribute to audience perception of vocal ability.
+content,Personality,Endurance,audience,Creator Perception,Personality Cuteness,,0.0,True,rejected,5b1_human_review_v0.1,True,幾乎沒有合理 alignment 關係，明顯 false positive。
+content,Personality,Playful,audience,Creator Perception,Personality Cuteness,contributes_to,0.7,True,approved,5b1_human_review_v0.1,True,playful 行為可能促成「可愛」的人格感知，但不是等價
+content,Relationship Style,Caring,audience,Relationship Perception,Chemistry,,0.0,True,deferred,5b1_human_review_v0.1,True,Caring 有時可能被觀眾解讀為 chemistry，但關係太 context-dependent，MVP 不建議直接固化。
+content,Relationship Style,Caring,audience,Relationship Perception,Friendship,related_to,0.6,True,approved,5b1_human_review_v0.1,True,Caring behavior 可以出現在 friendship 中，但 friendship 並不是 caring 的直接結果。
+content,Relationship Style,Caring,audience,Relationship Perception,Love,contributes_to,0.8,True,approved,5b1_human_review_v0.1,True,caring 行為可以促成 audience 感知到 love
+content,Relationship Style,Loving,audience,Relationship Perception,Friendship,related_to,0.6,True,approved,5b1_human_review_v0.1,True,有關聯，但 loving 不一定等於 friendship
+content,Relationship Style,Loving,audience,Relationship Perception,Love,manifests_as,0.9,True,approved,5b1_human_review_v0.1,False,內容呈現 loving relationship，很合理被 audience 感知成 love
+content,Relationship Style,Loving,audience,Relationship Perception,Team Love,manifests_as,0.8,True,approved,5b1_human_review_v0.1,False,loving interaction 可以被感知成團體之間的愛與情感連結
+content,Relationship Style,Playful Camaraderie,audience,Relationship Perception,Playful Teasing Dynamic,manifests_as,0.9,True,approved,ontology_v0.2_human_governance,True,Content-level playful camaraderie can manifest in audience perception as a playful teasing dynamic.
+content,Relationship Style,Supportive,audience,Relationship Perception,Friendship,related_to,0.6,True,approved,5b1_human_review_v0.1,True,Supportive relationship 與 friendship 有合理關聯，但不是一對一 manifestation。
+content,Relationship Style,Team-oriented,audience,Relationship Perception,Team Love,manifests_as,0.8,True,approved,5b1_human_review_v0.1,True,內容呈現 team-oriented interaction，很合理被觀眾感知為 team love。這組 alignment 很有價值。
+intent,Communication Style,Emotional,content,Communication Style,"Humorous, Playful Communication",,0.0,True,rejected,5b1_human_review_v0.1,True,都是 Communication Style，但 emotional 與 humorous/playful 是不同表達模式，不能因 similarity 就當 related。
+intent,Communication Style,Emotional,content,Relationship Style,Caring,,0.0,True,rejected,5b1_human_review_v0.1,True,Emotional 是 communication style，Caring 是 relationship style；情緒性表達不代表 caring。
+intent,Communication Style,Emotional,audience,Emotional Response,Comfort,elicits,0.7,True,approved,5b1_human_review_v0.1,False,同上；只是 source role 不同，relationship logic 仍成立。
+intent,Communication Style,"Humorous, Playful Communication",content,Communication Style,Casual,related_to,0.6,True,approved,5b1_human_review_v0.1,True,幽默、玩鬧式溝通常可能以較 casual 的方式呈現，但 Casual 不是 Humorous/Playful 的必要結果。
+intent,Communication Style,"Humorous, Playful Communication",content,Relationship Style,Playful Camaraderie,contributes_to,0.7,True,approved,5b1_human_review_v0.1,True,playful communication 可以促成或呈現 playful camaraderie，但兩者分屬 communication vs relationship。
+intent,Communication Style,Reflective,content,Communication Style,Casual,,0.0,True,rejected,5b1_human_review_v0.1,True,semantic model 誤判，兩種 communication style 並不構成 alignment
+intent,Core Values,Positive Impact,content,Core Values,Consistency,,0.0,True,rejected,5b1_human_review_v0.1,False,兩者都是 Core Values，但「正向影響」不等於或必然導向「一致性」；這是 embedding false positive。
+intent,Core Values,Positive Impact,content,Core Values,Growth,related_to,0.7,True,approved,5b1_human_review_v0.1,False,Positive Impact 與 Growth 在價值層有合理關聯，但不是同義，也不一定互相導致。
+intent,Creative Style,Comedic Parody Format,audience,Creator Perception,Funny,elicits,0.8,True,approved,5b1_human_review_v0.1,False,同上，source role 不同但跨 ontology 關係一致。
+intent,Creative Style,Vocal Production Craftsmanship,audience,Creator Perception,Vocal Ability,contributes_to,0.85,True,approved,ontology_v0.2_human_governance,True,Creator-side vocal production craftsmanship can contribute to audience perception of vocal ability.
+intent,Lifestyle,Game,content,Lifestyle,Travel,,0.0,True,rejected,5b1_human_review_v0.1,True,同屬 Lifestyle 不代表語義相關；這是典型 false positive。
+intent,Lifestyle,Travel,content,Lifestyle,Hobby,,0.0,True,rejected,5b1_human_review_v0.1,True,Travel 可以是 hobby，但 taxonomy 上兩者並不是穩定 alignment relationship；太依賴個案。
+intent,Relationship Style,Loving,content,Communication Style,Emotional,related_to,0.6,True,approved,5b1_human_review_v0.1,False,loving relationship 可能以 emotional communication 呈現，但並非必然。這組只給弱 related。
+intent,Relationship Style,Loving,content,Relationship Style,Supportive,related_to,0.7,True,approved,5b1_human_review_v0.1,True,都是 relationship style，但不是同義
+intent,Relationship Style,Loving,audience,Relationship Perception,Friendship,related_to,0.6,True,approved,5b1_human_review_v0.1,True,Love 與 friendship 有關聯，但關係型態不同，不能視為 manifestation。
+intent,Relationship Style,Loving,audience,Relationship Perception,Love,manifests_as,0.9,True,approved,5b1_human_review_v0.1,False,intent-side loving 最終被 audience 感知成 love，很合理
+intent,Relationship Style,Loving,audience,Relationship Perception,Team Love,manifests_as,0.8,True,approved,5b1_human_review_v0.1,False,creator-side loving interaction 很合理被 audience 感知成 team love。
+intent,Relationship Style,Playful Camaraderie,content,Relationship Style,Team-oriented,related_to,0.7,True,approved,5b1_human_review_v0.1,True,Playful camaraderie 往往發生在有團隊互動的情境中，但兩者 analytical meaning 不同。
+intent,Relationship Style,Playful Camaraderie,audience,Relationship Perception,Playful Teasing Dynamic,manifests_as,0.9,True,approved,ontology_v0.2_human_governance,True,Creator-side playful camaraderie can manifest in audience perception as a playful teasing dynamic.
+intent,Relationship Style,Supportive,content,Communication Style,Emotional,related_to,0.6,True,approved,5b1_human_review_v0.1,True,supportive interaction 可能透過 emotional communication 表達，但不是必然。
+intent,Relationship Style,Supportive,content,Relationship Style,Loving,related_to,0.7,True,approved,5b1_human_review_v0.1,True,同上，方向反過來也仍然只是 related
+intent,Relationship Style,Supportive,audience,Relationship Perception,Friendship,related_to,0.6,True,approved,5b1_human_review_v0.1,True,同上，source role 不同不改變基本 semantic relation。
+intent,Relationship Style,Team-oriented,content,Relationship Style,Caring,related_to,0.6,True,approved,5b1_human_review_v0.1,True,team-oriented 可以包含 caring，但不是必然
+intent,Relationship Style,Team-oriented,content,Relationship Style,Loving,related_to,0.6,True,approved,5b1_human_review_v0.1,True,團隊導向與 loving relationship 可以共存，但不是直接 manifestation。
+intent,Relationship Style,Team-oriented,content,Relationship Style,Supportive,related_to,0.7,True,approved,5b1_human_review_v0.1,True,團隊導向常伴隨 supportive behavior，但非同義

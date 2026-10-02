@@ -1,0 +1,43 @@
+section,metric_key,label,value,display_value,note,source_file
+pipeline_funnel,videos,Videos analyzed,9.0,9,,data/raw/content.csv
+pipeline_funnel,comments,Viewer comments collected,2239.0,"2,239",,data/raw/audience_comment.csv
+pipeline_funnel,transcript_segments,Transcript segments,5533.0,"5,533",,data/raw/transcript_segment.csv
+pipeline_funnel,annotations_3a,Creator-side annotations (3A),99.0,99,,data/alignment/5a/build_summary_5a.csv
+pipeline_funnel,annotations_3b,Audience-side annotations (3B),889.0,889,,data/alignment/5a/build_summary_5a.csv
+pipeline_funnel,raw_labels,Free-form raw labels,894.0,894,Vocabulary fragmentation before normalization (4A),data/processed/taxonomy_normalization_candidate_summary.csv
+pipeline_funnel,semantic_groups,Semantic candidate groups (4B.1),658.0,658,,data/processed/taxonomy_normalization_candidate_summary.csv
+pipeline_funnel,new_node_proposals,New-concept proposals (4B.2),290.0,290,,data/processed/ontology_v02_consolidation_summary.csv
+pipeline_funnel,consolidated_concepts,Consolidated proposals,169.0,169,,data/processed/ontology_v02_consolidation_summary.csv
+pipeline_funnel,human_review_rows,Ontology rows human-reviewed (4C),47.0,47,,data/ontology/v0.2/ontology_v02_build_summary.csv
+pipeline_funnel,ontology_v01_nodes,Ontology v0.1 nodes,88.0,88,,data/ontology/v0.2/ontology_v02_build_summary.csv
+pipeline_funnel,ontology_v02_nodes,Ontology v0.2 nodes,123.0,123,,data/ontology/v0.2/ontology_v02_build_summary.csv
+pipeline_funnel,normalization_mapping_rate,Annotations mapped to governed ontology (5A),0.67915,68%,Unmapped labels are kept but excluded from alignment scoring,data/alignment/5a/build_summary_5a.csv
+pipeline_funnel,relationship_rules_reviewed,Relationship rules human-reviewed (5B.1),36.0,36,,data/alignment/5b/rules_v0.1/relationship_rules_v0.1_summary.csv
+pipeline_funnel,relationship_rules_approved,Approved relationship rules,32.0,32,,data/alignment/5b/rules_v0.1/relationship_rules_v0.1.csv
+pipeline_funnel,relationship_rules_rejected,Rejected relationship rules,7.0,7,,data/alignment/5b/rules_v0.1/relationship_rules_v0.1.csv
+pipeline_funnel,comparisons,Alignment comparisons (videos × 3),27.0,27,,data/alignment/5c/build_summary_5c.csv
+pipeline_funnel,comparisons_computable,Computable comparisons,25.0,25,,data/alignment/5c/build_summary_5c.csv
+eval_signal_detection,qc_sample_size,Human-QC sample size,50.0,50,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,signal_precision,Precision,0.9,90.0%,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,signal_recall,Recall,1.0,100.0%,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,signal_f1,F1,0.9474,94.7%,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,signal_accuracy,Accuracy,0.92,92.0%,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,true_positive,True Positive,36.0,36,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,false_positive,False Positive,4.0,4,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,false_negative,False Negative,0.0,0,,data/evaluation/audience_human_qc_metrics.csv
+eval_signal_detection,true_negative,True Negative,10.0,10,,data/evaluation/audience_human_qc_metrics.csv
+eval_interpretation_quality,overall_exact_accuracy,Overall correct,0.86,86%,,data/evaluation/audience_human_qc_metrics.csv
+eval_interpretation_quality,overall_correct_or_partial_rate,Correct + partial,0.92,92%,,data/evaluation/audience_human_qc_metrics.csv
+eval_interpretation_quality,category_exact_accuracy,Category validity,0.8,80%,,data/evaluation/audience_human_qc_metrics.csv
+eval_interpretation_quality,label_exact_accuracy,Label validity,0.9,90%,,data/evaluation/audience_human_qc_metrics.csv
+eval_error_analysis,over_interpretation,Over-interpretation,5.0,5,10% of QC sample,data/evaluation/audience_human_qc_error_analysis.csv
+eval_error_analysis,under_interpretation,Under-interpretation,3.0,3,6% of QC sample,data/evaluation/audience_human_qc_error_analysis.csv
+eval_findings,generic_interaction,Generic interaction ≠ Community Signal,Generic interaction ≠ Community Signal,Generic interaction ≠ Community Signal,Generic interaction alone should not be labeled as a community signal.,3B.1 human evaluation
+eval_findings,emoji_only,Emoji-only ≠ sufficient signal,Emoji-only ≠ sufficient signal,Emoji-only ≠ sufficient signal,Emoji-only comments are not sufficient evidence for an audience label.,3B.1 human evaluation
+eval_findings,content_callback,Content callback → Community candidate,Content callback → Community candidate,Content callback → Community candidate,Comments that call back to the content are candidates for community signals.,3B.1 human evaluation
+eval_findings,member_fandom,Member/fandom references can be under-detected,Member/fandom references can be under-detected,Member/fandom references can be under-detected,Member and fandom references are a source of under-interpretation.,3B.1 human evaluation
+scoring_config,audience_support_transform,Audience support transform,sqrt,sqrt,,data/alignment/5c/build_summary_5c.csv
+scoring_config,confidence_floor,Pair confidence floor,0.5,0.50,,data/alignment/5c/build_summary_5c.csv
+scoring_config,aligned_threshold,Aligned threshold,0.8,0.80,,data/alignment/5d_v2/build_summary_5d_v2.csv
+scoring_config,partial_threshold,Partial threshold,0.6,0.60,,data/alignment/5d_v2/build_summary_5d_v2.csv
+scoring_config,overall_score_defined,Overall score defined,No (V1 keeps the 3 comparisons separate),No (V1 keeps the 3 comparisons separate),,data/alignment/5c/build_summary_5c.csv

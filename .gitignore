@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# environments / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.streamlit/secrets.toml
+
+# pipeline data is NOT committed — only the curated demo snapshot is
+data/*
+!data/demo/
+/selected_videos.csv
+*.numbers

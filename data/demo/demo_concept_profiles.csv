@@ -1,0 +1,109 @@
+content_id,layer,canonical_category,canonical_concept,ontology_node_id,is_focus_concept,annotation_count,unique_comment_count,total_content_comment_count,comment_prevalence,share_of_layer,avg_confidence,rank_within_layer
+youtube_gaw2OJ5PoDc,intent,Relationship Style,Caring,creator_content.relationship_style.caring,True,1,0,,,,1.0,1
+youtube_gaw2OJ5PoDc,content,Relationship Style,Caring,creator_content.relationship_style.caring,True,2,0,,,,1.0,1
+youtube_gaw2OJ5PoDc,content,Communication Style,"Humorous, Playful Communication",creator_content.communication_style.humorous_playful_communication,False,1,0,,,,1.0,2
+youtube_gaw2OJ5PoDc,content,Personality,Playful,creator_content.personality.playful,False,1,0,,,,1.0,2
+youtube_gaw2OJ5PoDc,audience,Behavioral Response,Subtitle / Translation Request,audience.behavioral_response.subtitle_translation_request,True,55,55,,,0.6627,1.0,1
+youtube_gaw2OJ5PoDc,audience,Behavioral Response,Subtitle / Translation Request,audience.behavioral_response.subtitle_translation_request,True,55,55,418.0,0.1316,0.1316,,1
+youtube_gaw2OJ5PoDc,audience,Emotional Response,Gratitude,audience.emotional_response.gratitude,True,24,24,,,0.2892,1.0,2
+youtube_gaw2OJ5PoDc,audience,Emotional Response,Gratitude,audience.emotional_response.gratitude,True,24,24,418.0,0.0574,0.0574,,2
+youtube_gaw2OJ5PoDc,audience,Emotional Response,Anticipation,audience.emotional_response.anticipation,False,4,4,,,0.0482,1.0,3
+youtube_gaw2OJ5PoDc,audience,Emotional Response,Anticipation,audience.emotional_response.anticipation,False,4,4,418.0,0.0096,0.0096,,3
+youtube_gaw2OJ5PoDc,audience,Behavioral Response,Want More,audience.behavioral_response.want_more,False,1,1,,,0.012,1.0,4
+youtube_gaw2OJ5PoDc,audience,Creator Perception,Confident,audience.creator_perception.confident,False,1,1,,,0.012,1.0,4
+youtube_gaw2OJ5PoDc,audience,Behavioral Response,Want More,audience.behavioral_response.want_more,False,1,1,418.0,0.0024,0.0024,,4
+youtube_gaw2OJ5PoDc,audience,Creator Perception,Confident,audience.creator_perception.confident,False,1,1,418.0,0.0024,0.0024,,4
+youtube_v5DXpxUAO3w,intent,Communication Style,"Humorous, Playful Communication",creator_content.communication_style.humorous_playful_communication,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,intent,Core Values,Friendship,creator_content.core_values.friendship,True,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,intent,Lifestyle,Hobby,creator_content.lifestyle.hobby,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,intent,Lifestyle,Travel,creator_content.lifestyle.travel,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,intent,Relationship Style,Playful Camaraderie,creator_content.relationship_style.playful_camaraderie,True,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Communication Style,Casual,creator_content.communication_style.casual,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Core Values,Friendship,creator_content.core_values.friendship,True,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Lifestyle,Hobby,creator_content.lifestyle.hobby,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Personality,Playful,creator_content.personality.playful,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Relationship Style,Playful Camaraderie,creator_content.relationship_style.playful_camaraderie,True,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,content,Relationship Style,Team-oriented,creator_content.relationship_style.team_oriented,False,1,0,,,,1.0,1
+youtube_v5DXpxUAO3w,audience,Behavioral Response,Want More,audience.behavioral_response.want_more,False,8,8,,,0.1778,1.0,1
+youtube_v5DXpxUAO3w,audience,Emotional Response,Amusement,audience.emotional_response.amusement,False,8,8,,,0.1778,1.0,1
+youtube_v5DXpxUAO3w,audience,Behavioral Response,Want More,audience.behavioral_response.want_more,False,8,8,171.0,0.0468,0.0468,,1
+youtube_v5DXpxUAO3w,audience,Emotional Response,Amusement,audience.emotional_response.amusement,False,8,8,171.0,0.0468,0.0468,,1
+youtube_v5DXpxUAO3w,audience,Behavioral Response,Content Request,audience.behavioral_response.content_request,False,6,6,,,0.1333,1.0,2
+youtube_v5DXpxUAO3w,audience,Behavioral Response,Content Request,audience.behavioral_response.content_request,False,6,6,171.0,0.0351,0.0351,,2
+youtube_v5DXpxUAO3w,audience,Emotional Response,Happy,audience.emotional_response.happy,False,5,5,,,0.1111,1.0,3
+youtube_v5DXpxUAO3w,audience,Emotional Response,Happy,audience.emotional_response.happy,False,5,5,171.0,0.0292,0.0292,,3
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Specific Content Moment,audience.discussion_topics.specific_content_moment,False,4,4,,,0.0889,1.0,4
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Specific Content Moment,audience.discussion_topics.specific_content_moment,False,4,4,171.0,0.0234,0.0234,,4
+youtube_v5DXpxUAO3w,audience,Creator Perception,Personality Cuteness,audience.creator_perception.personality_cuteness,False,3,3,,,0.0667,1.0,5
+youtube_v5DXpxUAO3w,audience,Emotional Response,Healing,audience.emotional_response.healing,False,3,3,,,0.0667,1.0,5
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Chemistry,audience.relationship_perception.chemistry,False,3,3,,,0.0667,1.0,5
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Playful Teasing Dynamic,audience.relationship_perception.playful_teasing_dynamic,True,3,3,,,0.0667,1.0,5
+youtube_v5DXpxUAO3w,audience,Creator Perception,Personality Cuteness,audience.creator_perception.personality_cuteness,False,3,3,171.0,0.0175,0.0175,,5
+youtube_v5DXpxUAO3w,audience,Emotional Response,Healing,audience.emotional_response.healing,False,3,3,171.0,0.0175,0.0175,,5
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Chemistry,audience.relationship_perception.chemistry,False,3,3,171.0,0.0175,0.0175,,5
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Playful Teasing Dynamic,audience.relationship_perception.playful_teasing_dynamic,True,3,3,171.0,0.0175,0.0175,,5
+youtube_v5DXpxUAO3w,audience,Community Signals,Fan Culture,audience.community_signals.fan_culture,False,2,2,,,0.0444,1.0,6
+youtube_v5DXpxUAO3w,audience,Community Signals,Inside Jokes,audience.community_signals.inside_jokes,False,2,2,,,0.0444,1.0,6
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Friendship,audience.relationship_perception.friendship,True,2,2,,,0.0444,1.0,6
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Team Love,audience.relationship_perception.team_love,False,2,2,,,0.0444,1.0,6
+youtube_v5DXpxUAO3w,audience,Community Signals,Fan Culture,audience.community_signals.fan_culture,False,2,2,171.0,0.0117,0.0117,,6
+youtube_v5DXpxUAO3w,audience,Community Signals,Inside Jokes,audience.community_signals.inside_jokes,False,2,2,171.0,0.0117,0.0117,,6
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Friendship,audience.relationship_perception.friendship,True,2,2,171.0,0.0117,0.0117,,6
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Team Love,audience.relationship_perception.team_love,False,2,2,171.0,0.0117,0.0117,,6
+youtube_v5DXpxUAO3w,audience,Creator Perception,Cute Appearance,audience.creator_perception.cute_appearance,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Humorous Dialogue,audience.discussion_topics.humorous_dialogue,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Member Interaction,audience.discussion_topics.member_interaction,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Angry,audience.emotional_response.angry,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Anticipation,audience.emotional_response.anticipation,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Touching,audience.emotional_response.touching,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Love,audience.relationship_perception.love,False,1,1,,,0.0222,1.0,7
+youtube_v5DXpxUAO3w,audience,Creator Perception,Cute Appearance,audience.creator_perception.cute_appearance,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Humorous Dialogue,audience.discussion_topics.humorous_dialogue,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Discussion Topics,Member Interaction,audience.discussion_topics.member_interaction,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Angry,audience.emotional_response.angry,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Anticipation,audience.emotional_response.anticipation,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Emotional Response,Touching,audience.emotional_response.touching,False,1,1,171.0,0.0058,0.0058,,7
+youtube_v5DXpxUAO3w,audience,Relationship Perception,Love,audience.relationship_perception.love,False,1,1,171.0,0.0058,0.0058,,7
+youtube_w0wF-O0EGsQ,intent,Creative Style,Vocal Production Craftsmanship,creator_content.creative_style.vocal_production_craftsmanship,True,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,intent,Lifestyle,Behind-the-scenes,creator_content.lifestyle.behind_the_scenes,False,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,content,Communication Style,"Humorous, Playful Communication",creator_content.communication_style.humorous_playful_communication,False,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,content,Creative Style,Vocal Production Craftsmanship,creator_content.creative_style.vocal_production_craftsmanship,True,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,content,Personality,Endurance,creator_content.personality.endurance,False,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,content,Relationship Style,Supportive,creator_content.relationship_style.supportive,False,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,content,Relationship Style,Team-oriented,creator_content.relationship_style.team_oriented,False,1,0,,,,1.0,1
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Performance,audience.discussion_topics.performance,False,43,40,,,0.6667,1.0,1
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Performance,audience.discussion_topics.performance,False,43,40,195.0,0.2051,0.2051,,1
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Vocal Ability,audience.creator_perception.vocal_ability,True,14,14,,,0.2333,1.0,2
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Vocal Ability,audience.creator_perception.vocal_ability,True,14,14,195.0,0.0718,0.0718,,2
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Amusement,audience.emotional_response.amusement,False,6,4,,,0.0667,1.0,3
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Amusement,audience.emotional_response.amusement,False,6,4,195.0,0.0205,0.0205,,3
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Release Request,audience.behavioral_response.release_request,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Personality Cuteness,audience.creator_perception.personality_cuteness,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Production Criticism,audience.discussion_topics.production_criticism,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Vocal Processing,audience.discussion_topics.vocal_processing,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Comfort,audience.emotional_response.comfort,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Emotional,audience.emotional_response.emotional,False,2,2,,,0.0333,1.0,4
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Release Request,audience.behavioral_response.release_request,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Personality Cuteness,audience.creator_perception.personality_cuteness,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Production Criticism,audience.discussion_topics.production_criticism,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Vocal Processing,audience.discussion_topics.vocal_processing,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Comfort,audience.emotional_response.comfort,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Emotional,audience.emotional_response.emotional,False,2,2,195.0,0.0103,0.0103,,4
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Content Request,audience.behavioral_response.content_request,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Replay,audience.behavioral_response.replay,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Community Signals,Fan Culture,audience.community_signals.fan_culture,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Community Signals,Inside Jokes,audience.community_signals.inside_jokes,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Hardworking,audience.creator_perception.hardworking,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Versatile Performer,audience.creator_perception.versatile_performer,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Music / Song,audience.discussion_topics.music_song,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Proud,audience.emotional_response.proud,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Sad,audience.emotional_response.sad,False,1,1,,,0.0167,1.0,5
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Content Request,audience.behavioral_response.content_request,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Behavioral Response,Replay,audience.behavioral_response.replay,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Community Signals,Fan Culture,audience.community_signals.fan_culture,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Community Signals,Inside Jokes,audience.community_signals.inside_jokes,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Hardworking,audience.creator_perception.hardworking,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Creator Perception,Versatile Performer,audience.creator_perception.versatile_performer,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Discussion Topics,Music / Song,audience.discussion_topics.music_song,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Proud,audience.emotional_response.proud,False,1,1,195.0,0.0051,0.0051,,5
+youtube_w0wF-O0EGsQ,audience,Emotional Response,Sad,audience.emotional_response.sad,False,1,1,195.0,0.0051,0.0051,,5

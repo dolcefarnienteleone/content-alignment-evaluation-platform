@@ -1,0 +1,331 @@
+{
+  "dataset": "alignment-engine-demo",
+  "milestone": "P0-A",
+  "generated_at": "2026-10-02T07:29:30+00:00",
+  "cases": [
+    {
+      "content_id": "youtube_w0wF-O0EGsQ",
+      "demo_order": 1,
+      "demo_role": "hero",
+      "demo_label": "Creative Craft",
+      "focus_path": "Vocal Production Craftsmanship → Vocal Production Craftsmanship → Vocal Ability"
+    },
+    {
+      "content_id": "youtube_gaw2OJ5PoDc",
+      "demo_order": 2,
+      "demo_role": "gap",
+      "demo_label": "Values / Care",
+      "focus_path": "Caring → Caring → (no governed audience counterpart)"
+    },
+    {
+      "content_id": "youtube_v5DXpxUAO3w",
+      "demo_order": 3,
+      "demo_role": "relationship",
+      "demo_label": "Relationship Identity",
+      "focus_path": "Playful Camaraderie → Playful Teasing Dynamic · Friendship → Friendship"
+    }
+  ],
+  "versions": {
+    "ontology": "v0.2",
+    "relationship_rules": "v0.1",
+    "alignment_scores": "5C",
+    "diagnostics": "5D.1 v2",
+    "decision_insights": "5D.2 v2"
+  },
+  "sources": {
+    "content": {
+      "path": "data/raw/content.csv",
+      "sha256_16": "398bbc866451f44f"
+    },
+    "comments": {
+      "path": "data/raw/audience_comment.csv",
+      "sha256_16": "c4cb3d4dd0bc3edd"
+    },
+    "transcripts": {
+      "path": "data/raw/transcript_segment.csv",
+      "sha256_16": "b77a6b615a246c7e"
+    },
+    "raw_3a": {
+      "path": "data/processed/taxonomy_annotation_raw_3a.csv",
+      "sha256_16": "b744e0f052cfe556"
+    },
+    "raw_3b": {
+      "path": "data/processed/taxonomy_annotation_raw_3b.csv",
+      "sha256_16": "445e98012afffe16"
+    },
+    "qc_metrics": {
+      "path": "data/evaluation/audience_human_qc_metrics.csv",
+      "sha256_16": "74e897ada9d6d3d2"
+    },
+    "qc_errors": {
+      "path": "data/evaluation/audience_human_qc_error_analysis.csv",
+      "sha256_16": "3ea10c972835a520"
+    },
+    "qc_groups": {
+      "path": "data/evaluation/audience_human_qc_group_analysis.csv",
+      "sha256_16": "8d52a296e511d51a"
+    },
+    "inventory_summary": {
+      "path": "data/processed/taxonomy_label_inventory_summary.csv",
+      "sha256_16": "629ef5688f22b0ed"
+    },
+    "candidate_summary": {
+      "path": "data/processed/taxonomy_normalization_candidate_summary.csv",
+      "sha256_16": "7c2c29cc9d91bba6"
+    },
+    "consolidation_summary": {
+      "path": "data/processed/ontology_v02_consolidation_summary.csv",
+      "sha256_16": "9582bd638b51ab48"
+    },
+    "ontology_build": {
+      "path": "data/ontology/v0.2/ontology_v02_build_summary.csv",
+      "sha256_16": "be501ff0a2c29239"
+    },
+    "build_5a": {
+      "path": "data/alignment/5a/build_summary_5a.csv",
+      "sha256_16": "0becf45396c80636"
+    },
+    "normalized": {
+      "path": "data/alignment/5a/normalized_annotations_5a.csv",
+      "sha256_16": "86346a013f3b4be3"
+    },
+    "content_profile": {
+      "path": "data/alignment/5a/content_concept_profile_5a.csv",
+      "sha256_16": "4f7e93215e28d108"
+    },
+    "audience_profile": {
+      "path": "data/alignment/5a/audience_concept_profile_5a.csv",
+      "sha256_16": "0abe8b46f975369b"
+    },
+    "rules": {
+      "path": "data/alignment/5b/rules_v0.1/relationship_rules_v0.1.csv",
+      "sha256_16": "3f26fee98b370610"
+    },
+    "rules_summary": {
+      "path": "data/alignment/5b/rules_v0.1/relationship_rules_v0.1_summary.csv",
+      "sha256_16": "ec7d101fc3895bc2"
+    },
+    "build_5c": {
+      "path": "data/alignment/5c/build_summary_5c.csv",
+      "sha256_16": "2145a0839779825b"
+    },
+    "content_summary_5c": {
+      "path": "data/alignment/5c/alignment_content_summary_5c.csv",
+      "sha256_16": "b21ccd3f1c4dda64"
+    },
+    "insights_5d": {
+      "path": "data/alignment/5d_v2/alignment_insights_5d_v2.csv",
+      "sha256_16": "5af3ecc93b5d75be"
+    },
+    "diagnostic_5d": {
+      "path": "data/alignment/5d_v2/content_alignment_diagnostic_5d_v2.csv",
+      "sha256_16": "2c9b22f83b1b5c70"
+    },
+    "build_5d": {
+      "path": "data/alignment/5d_v2/build_summary_5d_v2.csv",
+      "sha256_16": "2c5b8a3474d36b0f"
+    },
+    "decisions": {
+      "path": "data/alignment/5d2_v2/decision_insights_5d2_v2.csv",
+      "sha256_16": "18a9a4f7d143f191"
+    },
+    "decision_evidence": {
+      "path": "data/alignment/5d2_v2/decision_insight_evidence_5d2_v2.csv",
+      "sha256_16": "c66f7beb2c057379"
+    }
+  },
+  "outputs": {
+    "demo_content.csv": {
+      "rows": 3,
+      "columns": [
+        "content_id",
+        "demo_order",
+        "demo_role",
+        "demo_label",
+        "display_title_en",
+        "headline",
+        "story",
+        "what_it_proves",
+        "focus_path",
+        "focus_concepts",
+        "creator_name",
+        "original_title",
+        "url",
+        "duration_seconds",
+        "language",
+        "view_count",
+        "like_count",
+        "comment_count",
+        "collected_comment_rows",
+        "transcript_status",
+        "transcript_segment_count",
+        "youtube_video_id",
+        "thumbnail_url",
+        "embed_url",
+        "publish_date",
+        "key_finding_type",
+        "interpretation_scope",
+        "intent_to_content_score",
+        "intent_to_content_coverage",
+        "intent_to_content_relationship_strength",
+        "content_to_audience_score",
+        "content_to_audience_coverage",
+        "content_to_audience_relationship_strength",
+        "intent_to_audience_score",
+        "intent_to_audience_coverage",
+        "intent_to_audience_relationship_strength",
+        "overall_score_defined",
+        "overall_score_note",
+        "annotated_comment_count",
+        "content_concept_count",
+        "audience_concept_count",
+        "intent_concept_count",
+        "normalization_mapping_rate"
+      ],
+      "bytes": 5269
+    },
+    "demo_decision_insights.csv": {
+      "rows": 56,
+      "columns": [
+        "content_id",
+        "display_section",
+        "insight_field",
+        "display_label",
+        "polarity",
+        "field_order",
+        "rank",
+        "statement",
+        "comparison_type",
+        "comparison_label",
+        "evidence_source",
+        "signal_or_insight_type",
+        "source_role",
+        "source_category",
+        "source_concept",
+        "target_role",
+        "target_category",
+        "target_concept",
+        "relationship_type",
+        "relationship_strength",
+        "pair_confidence",
+        "audience_support_rate",
+        "evidence_strength"
+      ],
+      "bytes": 16738
+    },
+    "demo_alignment_pairs.csv": {
+      "rows": 30,
+      "columns": [
+        "content_id",
+        "comparison_type",
+        "comparison_label",
+        "comparison_order",
+        "insight_type",
+        "status_order",
+        "is_focus_pair",
+        "source_layer",
+        "source_category",
+        "source_concept",
+        "target_layer",
+        "target_category",
+        "target_concept",
+        "relationship_type",
+        "relationship_source",
+        "relationship_strength",
+        "pair_confidence",
+        "audience_support_rate",
+        "audience_support_factor",
+        "evidence_strength",
+        "comparison_alignment_score",
+        "alignment_status",
+        "alignment_computable",
+        "aligned_concept_count",
+        "partial_alignment_count",
+        "missing_resonance_count",
+        "interpretation"
+      ],
+      "bytes": 8506
+    },
+    "demo_alignment_evidence.csv": {
+      "rows": 136,
+      "columns": [
+        "evidence_id",
+        "content_id",
+        "layer",
+        "layer_order",
+        "evidence_type",
+        "raw_category",
+        "raw_label",
+        "normalization_status",
+        "is_mapped",
+        "canonical_category",
+        "canonical_concept",
+        "ontology_node_id",
+        "is_focus_concept",
+        "evidence_rank",
+        "evidence_span",
+        "evidence_text",
+        "evidence_likes",
+        "engagement_stage",
+        "model_explanation"
+      ],
+      "bytes": 58663
+    },
+    "demo_concept_profiles.csv": {
+      "rows": 108,
+      "columns": [
+        "content_id",
+        "layer",
+        "canonical_category",
+        "canonical_concept",
+        "ontology_node_id",
+        "is_focus_concept",
+        "annotation_count",
+        "unique_comment_count",
+        "total_content_comment_count",
+        "comment_prevalence",
+        "share_of_layer",
+        "avg_confidence",
+        "rank_within_layer"
+      ],
+      "bytes": 14344
+    },
+    "demo_system_metrics.csv": {
+      "rows": 42,
+      "columns": [
+        "section",
+        "metric_key",
+        "label",
+        "value",
+        "display_value",
+        "note",
+        "source_file"
+      ],
+      "bytes": 5630
+    },
+    "demo_relationship_rules.csv": {
+      "rows": 40,
+      "columns": [
+        "source_layer",
+        "source_category",
+        "source_concept",
+        "target_layer",
+        "target_category",
+        "target_concept",
+        "relationship_type",
+        "relationship_strength",
+        "directional",
+        "rule_status",
+        "rule_source",
+        "used_in_demo",
+        "notes"
+      ],
+      "bytes": 9000
+    }
+  },
+  "notes": [
+    "Static snapshot: the demo app needs no API keys, no live LLM, and no local paths.",
+    "Viewer comments are public YouTube comments; author identifiers and comment IDs are excluded.",
+    "Absence of a governed audience counterpart does not prove absence of human perception."
+  ]
+}
