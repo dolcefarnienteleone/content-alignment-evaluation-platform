@@ -17,7 +17,7 @@ import streamlit as st
 
 DATA = Path(__file__).parent / "data" / "demo"
 REPO_URL = "https://github.com/dolcefarnienteleone/content-alignment-evaluation-platform"
-AUTHOR = "" #TODO(P0-D): add author name
+AUTHOR = "Winnie Chen" 
 
 st.set_page_config(
     page_title="Content Alignment Evaluation Platform",

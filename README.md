@@ -12,7 +12,7 @@ All three layers are mapped into a **human-governed ontology** and linked throug
 relationship rules**. For every video, the system shows with evidence what carries through, what remains
 unmatched, and what else audiences bring up. It does not reduce this to a single score.
 
-**▶ Live demo:** _[add Streamlit URL]_ · no login, no API key, no live LLM
+**▶ Live demo:** _https://content-alignment-eval.streamlit.app/?case=hero_ · no login, no API key, no live LLM
 
 ---
 
