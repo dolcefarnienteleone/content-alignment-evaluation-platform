@@ -90,7 +90,6 @@ pipeline/
   config/selected_videos.csv    input video list
 run_pipeline.sh                 runs every stage in order, stopping at human checkpoints
 docs/PIPELINE.md                stage-by-stage inputs / outputs
-docs/DEMO_DECISIONS.md          terminology and framing decisions
 ```
 
 ## Run it
